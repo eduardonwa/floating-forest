@@ -1,10 +1,32 @@
 <template>
-  <div class="mx-auto container bg-yellow-400">
-    <div class="flex justify-center items-center">
-      <span class="p-12 font-semibold text-4xl">Under Construction</span>
-    </div>
+  <div>
+      <Navbar/>
+      <Hero/>
+      <div class="ig-feed">
+        <InstagramFeed v-for="item in 8" :key="item.id"></InstagramFeed>
+      </div>
   </div>
 </template>
 
-<script setup>
+<style>
+.ig-feed {
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(233px, 1fr));
+    grid-gap: 13px;
+}
+</style>
+
+<script>
+import Hero from './components/Hero.vue';
+import Navbar from './components/Navbar.vue';
+import InstagramFeed from './components/InstagramFeed.vue';
+
+export default {
+  components: {
+    Hero,
+    Navbar,
+    InstagramFeed,
+  }
+}
 </script>
