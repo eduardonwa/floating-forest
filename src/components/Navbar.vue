@@ -1,9 +1,9 @@
 <template>
     <div class="nav text-blue-500">
-        <ul class="h-full flex justify-center items-center space-x-8">
-            <li>Home</li>
-            <li>Contact</li>
-            <li>Projects</li>
+        <ul class="navbar h-full flex justify-center items-center space-x-8">
+            <li class="nav-link">Home</li>
+            <li class="nav-link">Contact</li>
+            <li class="nav-link">Projects</li>
         </ul>
     </div>
 </template>
@@ -16,15 +16,17 @@
     height: 89px;
 }
 
-ul > li {
+.navbar {
     font-size: 1.2rem;
     cursor: pointer;
     color: whitesmoke;
     padding: 3px;
+    transition: .3s;
+    font-weight: bold;
 }
 
-li:hover {
-    border: 2px dashed red;
-    padding: 3px;
+.nav-link:hover {
+    color: red;
+    font-weight: bold;
 }
 </style>

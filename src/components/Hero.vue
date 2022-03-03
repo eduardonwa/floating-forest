@@ -1,6 +1,6 @@
 <template>
-    <div class="banner p-3 text-white">
-        <span class="text-4xl leading-normal font-semibold">You cannot swim for new horizons until you have courage to lose sight of the shore</span>
+    <div class="banner p-6 text-white">
+        <span class="text-3xl leading-normal font-semibold">You cannot swim for new horizons until you have courage to lose sight of the shore</span>
         <img src="/floating-forest.jpg" class="banner-img" alt="banner-hero">
     </div>
 </template>
