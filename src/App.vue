@@ -2,7 +2,7 @@
   <div>
       <Navbar/>
       <Hero/>
-      <div class="ig-feed">
+      <div class="ig-feed p-8">
         <InstagramFeed v-for="item in 8" :key="item.id"></InstagramFeed>
       </div>
   </div>

@@ -17,13 +17,14 @@
 }
 
 ul > li {
-    font-weight: 600;
     font-size: 1.2rem;
     cursor: pointer;
+    color: whitesmoke;
+    padding: 3px;
 }
 
 li:hover {
-    color: whitesmoke;
-    transition: .3s;
+    border: 2px dashed red;
+    padding: 3px;
 }
 </style>

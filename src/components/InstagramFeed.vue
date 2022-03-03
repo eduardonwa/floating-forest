@@ -1,5 +1,5 @@
 <template>
-    <div class="m-5 ig-media border border-white rounded-sm text-white">
+    <div class="ig-media border border-white rounded-sm text-white">
         INSTAGRAM FEED
     </div>
 </template>
